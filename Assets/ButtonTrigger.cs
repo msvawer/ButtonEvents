@@ -7,10 +7,12 @@ public class ButtonTrigger : MonoBehaviour
 {
     public GameObject sphere;
 
+    private Animator _buttonAnimator;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        _buttonAnimator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -24,6 +26,7 @@ public class ButtonTrigger : MonoBehaviour
     {
         if(other.gameObject.tag == "Player")
         {
+            _buttonAnimator.SetTrigger("ButtonDown");
             SphereCreation();
             Debug.Log("Sphere created");
         }
