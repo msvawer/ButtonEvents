@@ -22,7 +22,13 @@ public class ButtonTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        SphereCreation();
+        if(other.gameObject.tag == "Player")
+        {
+            SphereCreation();
+            Debug.Log("Sphere created");
+        }
+
+        
     }
 
     public void SphereCreation()
