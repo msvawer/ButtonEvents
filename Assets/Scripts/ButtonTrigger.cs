@@ -8,6 +8,8 @@ public class ButtonTrigger : MonoBehaviour
     [SerializeField]
     private GameObject myaudioGameObj;
 
+    public AudioSource audioSource; 
+
     [SerializeField]
     private Animator _buttonAnimator;
 
@@ -15,19 +17,26 @@ public class ButtonTrigger : MonoBehaviour
     void Start()
     {
         _buttonAnimator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
     }
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag == "Player")
+        if(other.gameObject.tag == "Player") 
         {
+            audioSource.Play();
             _buttonAnimator.SetTrigger("ButtonDown");
-            SphereCreation();
+           // SongSphereCreation();
             Debug.Log("Sphere created");
         } 
     }
-    private void SphereCreation()
-    {
-        Instantiate(myaudioGameObj);
-    }
+    //public void SongSphereCreation()
+   //{
+       // if(!audioSource.isPlaying)
+      //  {
+           // AudioSource.Play;
+       // }
+
+       // Instantiate(myaudioGameObj);
+   // }
 
 }
