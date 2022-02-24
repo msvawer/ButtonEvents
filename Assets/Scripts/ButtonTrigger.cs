@@ -5,9 +5,9 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class ButtonTrigger : MonoBehaviour
 {
-    public GameObject sphere;
+    public GameObject myaudioGameObj;
 
-    private Animator _buttonAnimator;
+    public Animator _buttonAnimator;
 
     // Start is called before the first frame update
     void Start()
@@ -36,7 +36,9 @@ public class ButtonTrigger : MonoBehaviour
 
     public void SphereCreation()
     {
-        Instantiate(sphere);
+        Instantiate(myaudioGameObj);
     }
+
+    
 
 }
