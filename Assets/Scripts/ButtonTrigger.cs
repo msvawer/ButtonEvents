@@ -5,23 +5,17 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class ButtonTrigger : MonoBehaviour
 {
-    public GameObject myaudioGameObj;
+    [SerializeField]
+    private GameObject myaudioGameObj;
 
-    public Animator _buttonAnimator;
+    [SerializeField]
+    private Animator _buttonAnimator;
 
     // Start is called before the first frame update
     void Start()
     {
         _buttonAnimator = GetComponent<Animator>();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-
     private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.tag == "Player")
@@ -29,16 +23,11 @@ public class ButtonTrigger : MonoBehaviour
             _buttonAnimator.SetTrigger("ButtonDown");
             SphereCreation();
             Debug.Log("Sphere created");
-        }
-
-        
+        } 
     }
-
-    public void SphereCreation()
+    private void SphereCreation()
     {
         Instantiate(myaudioGameObj);
     }
-
-    
 
 }
