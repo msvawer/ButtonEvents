@@ -55,7 +55,7 @@ public class SongManager : MonoBehaviour
         }
 
 
-        if (other.gameObject.tag == "JB2")
+        if (other.gameObject.tag == "JB3")
         {
             m_MyAudioSource.Stop(); //Stop current song
 
@@ -66,7 +66,7 @@ public class SongManager : MonoBehaviour
 
         }
 
-        if (other.gameObject.tag == "JB2")
+        if (other.gameObject.tag == "JB4")
         {
             m_MyAudioSource.Stop(); //Stop current song
 
