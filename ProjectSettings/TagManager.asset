@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - SongSphere
+  - JB1
+  - JB2
+  - JB3
+  - JB4
   layers:
   - Default
   - TransparentFX
