@@ -5,8 +5,8 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class ButtonTrigger : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject myaudioGameObj;
+   // [SerializeField]
+   // private GameObject myaudioGameObj;
 
     public AudioSource audioSource; 
 
@@ -25,8 +25,7 @@ public class ButtonTrigger : MonoBehaviour
         {
             audioSource.Play();
             _buttonAnimator.SetTrigger("ButtonDown");
-           // SongSphereCreation();
-            Debug.Log("Sphere created");
+           
         } 
     }
     //public void SongSphereCreation()
