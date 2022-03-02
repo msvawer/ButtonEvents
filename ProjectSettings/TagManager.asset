@@ -9,6 +9,7 @@ TagManager:
   - JB2
   - JB3
   - JB4
+  - XRRigOrigin
   layers:
   - Default
   - TransparentFX
