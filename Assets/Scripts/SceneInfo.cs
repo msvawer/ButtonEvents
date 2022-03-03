@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public static class SceneInfo 
 {
+    public enum sceneID { Lobby, cowboySpaceship, GridRoom}
+
+    public static readonly string[] scenes = { Names.Lobby, Names.CowboySpaceship, Names.GridRoom };
     public static class Names
     {
         public static readonly string XRPersistent = "XRPersistent";
