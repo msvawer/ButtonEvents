@@ -1212,10 +1212,10 @@ MonoBehaviour:
   m_PositionAction:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Position
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 0973a669-68ef-4c6f-8880-f812fa04fd36
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1224,10 +1224,10 @@ MonoBehaviour:
   m_RotationAction:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Rotation
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 7042181b-e136-4beb-b20e-4bb778e4064b
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1236,10 +1236,10 @@ MonoBehaviour:
   m_TrackingStateAction:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Tracking State
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: dac39644-66f2-44cc-8979-57ccc0edcab2
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1248,10 +1248,10 @@ MonoBehaviour:
   m_SelectAction:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Select
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 03e8741c-4f0d-499e-a581-4a7b038bac3f
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1260,10 +1260,10 @@ MonoBehaviour:
   m_SelectActionValue:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Select Action Value
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: cc0d14b4-f7be-4efa-95e8-ab2102f95c93
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1272,10 +1272,10 @@ MonoBehaviour:
   m_ActivateAction:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Activate
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 8b8f044a-0f72-4e0f-ad47-38b81a8dddd9
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1284,10 +1284,10 @@ MonoBehaviour:
   m_ActivateActionValue:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Activate Action Value
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 1a549317-a61f-4f03-8ab8-0d7186389342
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1296,10 +1296,10 @@ MonoBehaviour:
   m_UIPressAction:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: UI Press
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: b348c3a3-65d2-4814-a4b3-aef0cc3e724f
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1308,10 +1308,10 @@ MonoBehaviour:
   m_UIPressActionValue:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: UI Press Action Value
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 48711ed6-6246-4cc0-aa76-409970723bab
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1320,10 +1320,10 @@ MonoBehaviour:
   m_HapticDeviceAction:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Haptic Device
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: b388dff2-1f7c-45cc-8d9f-36f55d992eb7
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1332,10 +1332,10 @@ MonoBehaviour:
   m_RotateAnchorAction:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Rotate Anchor
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 07fdd8cb-9339-4c49-8e2e-9bde359795a9
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1344,10 +1344,10 @@ MonoBehaviour:
   m_TranslateAnchorAction:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Translate Anchor
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 5724a0e6-9a68-4a01-908a-b02c34c725f3
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
